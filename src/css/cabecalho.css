@@ -3,7 +3,8 @@
   margin-bottom: 20px;
   width: 100%;
   padding: 10px;
-  background-color: #f8f8f8;
+  background-color: #e9e9e9;
+  border-radius: 0 0 10px 10px;
 }
 
 .logo h1 {
@@ -43,4 +44,25 @@
   top: -5px;
   left: -5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.links a {
+  font-size: 17px;
+  color: rgb(99, 99, 99);
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.links a:hover {
+  background-color: #d4d4d4;
+  text-decoration: underline;
 }

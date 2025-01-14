@@ -1,0 +1,19 @@
+.texto-principal {
+  padding: 30px;
+}
+
+.texto-principal h2,
+.texto-principal h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.texto-principal p {
+  font-size: 16px;
+}
+
+.texto-principal p,
+.texto-principal ul {
+  max-width: 800px;
+  margin: 7px auto;
+}
