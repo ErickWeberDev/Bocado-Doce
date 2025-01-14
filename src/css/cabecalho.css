@@ -1,0 +1,46 @@
+.cabecalho {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+
+.donut {
+  width: 120px;
+  height: 120px;
+  background-color: #f9c74f;
+  border-radius: 50%;
+  position: relative;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.donut-inner {
+  width: 80px;
+  height: 80px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+.donut::before {
+  content: '';
+  width: 130px;
+  height: 130px;
+
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
